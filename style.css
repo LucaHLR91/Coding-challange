@@ -1,0 +1,106 @@
+/* selettore {
+  proprietà: valore
+  proprietà: valore
+} */
+
+
+/* tag */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  color: limegreen;
+}
+
+img {
+  width: 400px;
+
+}
+
+nav {
+  text-align: center;
+  background-color: limegreen;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+button {
+  padding: 2px;
+}
+
+section {
+  margin-left: 10px;
+}
+
+section span {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+section p {
+  color: white;
+  font-size:20px;
+}
+
+
+/* .class */
+
+.container {
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 100px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+.arrow::before {
+  content: "\2192";
+  color: white;
+  font-weight: bold;
+}
+
+.energy-bar-orange {
+  width: 400px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.energy-bar-green {
+  width: 700px;
+  height: 20px;
+  background-color: limegreen;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.energy-bar-red {
+  width: 100px;
+  height: 20px;
+  background-color: red;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+
+/* #id */
